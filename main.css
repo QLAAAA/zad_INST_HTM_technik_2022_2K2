@@ -43,7 +43,7 @@ nav
 main
 {
     margin-left: 300px;
-    margin-right: 300px;
+
     width: 1000px;
 }
 h1.Zad1
@@ -65,31 +65,31 @@ h1.Zad1
     color: green;
     font-family: Arial;
 }
-.Imie7
+p.Imie7
 {
     font-size: 17px;
 }
-.Imie6
+p.Imie6
 {
   font-size: 16px;
 }
-.Imie5
+p.Imie5
 {
     font-size: 15px;
 }
-.Imie4
+p.Imie4
 {
     font-size: 14px;
 }
-.Imie3
+p.Imie3
 {
     font-size: 13px;
 }
-.Imie2
+p.Imie2
 {
     font-size: 12px;
 }
-.Imie1
+p.Imie1
 {
     font-size: 11px;
 }
