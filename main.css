@@ -5,7 +5,7 @@ body
 h1.Poczatek
 {
     font-size: 40px;
-    color: #ddd;
+    color: #666666;
     text-align: center;
     margin-top: 50px;
     margin-bottom: 50px;
@@ -31,7 +31,7 @@ nav
     padding-right: 20px;
     border-right: 1px dashed #0a2b42;
 }
-.menu >li :first-child
+.menu >li:first-child
 {
     border-left: 1px dashed #0a2b42;
 }
