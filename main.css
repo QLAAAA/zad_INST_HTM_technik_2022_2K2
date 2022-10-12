@@ -1,0 +1,17 @@
+body
+{
+ background-color: silver;
+}
+h1.poczatek
+{
+    font-size: 40px;
+    color: #ddd;
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+nav
+{
+    background-color: #1c74b2;
+    text-align: center;
+}
