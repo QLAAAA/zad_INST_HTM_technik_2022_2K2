@@ -59,3 +59,10 @@ h1.Zad1
  margin-right: 20px;
  margin-left: 20px;
 }
+.Podpis
+{
+    text-align: left;
+    margin-left: 20px;
+    color: red;
+    font-size: 8px;
+}
