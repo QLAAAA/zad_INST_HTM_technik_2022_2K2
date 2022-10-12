@@ -54,8 +54,8 @@ h1.Zad1
 }
 .zad1
 {
- margin-right: 20px;
- margin-left: 20px;
+ margin-right: 300px;
+ margin-left: 300px;
 }
 .Imie
 {
@@ -63,31 +63,31 @@ h1.Zad1
     color: green;
     font-family: Arial;
 }
-p.Imie7
+.Imie7
 {
     font-size: 7;
 }
-p.Imie6
+.Imie6
 {
   font-size: 6;
 }
-p.Imie5
+.Imie5
 {
     font-size: 5;
 }
-p.Imie4
+.Imie4
 {
     font-size: 4;
 }
-p.Imie3
+.Imie3
 {
     font-size: 3;
 }
-p.Imie2
+.Imie2
 {
     font-size: 2;
 }
-p.Imie1
+.Imie1
 {
     font-size: 1;
 }
