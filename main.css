@@ -31,10 +31,6 @@ nav
     padding-right: 20px;
     border-right: 1px dashed #0a2b42;
 }
-.menu >li:first-child
-{
-    border-left: 1px dashed #0a2b42;
-}
 .menu a
 {
     color: #fff;
