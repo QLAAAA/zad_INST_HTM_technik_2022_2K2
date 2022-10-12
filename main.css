@@ -40,3 +40,54 @@ nav
 {
     color: #0a2b42;
 }
+main
+{
+    width: 1000px;
+}
+h1.Zad1
+{
+    text-align: center;
+    font-size: 30px;
+    color: #fff;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.zad1
+{
+ margin-right: 20px;
+ margin-left: 20px;
+}
+.Imie
+{
+    text-align: right;
+    color: green;
+    font-family: Arial;
+}
+p.Imie7
+{
+    font-size: 7;
+}
+p.Imie6
+{
+  font-size: 6;
+}
+p.Imie5
+{
+    font-size: 5;
+}
+p.Imie4
+{
+    font-size: 4;
+}
+p.Imie3
+{
+    font-size: 3;
+}
+p.Imie2
+{
+    font-size: 2;
+}
+p.Imie1
+{
+    font-size: 1;
+}
