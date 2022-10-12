@@ -42,6 +42,7 @@ nav
 }
 main
 {
+    text-align: center;
     width: 1000px;
 }
 h1.Zad1
@@ -54,8 +55,8 @@ h1.Zad1
 }
 .zad1
 {
- margin-right: 300px;
- margin-left: 300px;
+ margin-right: 20px;
+ margin-left: 20px;
 }
 .Imie
 {
