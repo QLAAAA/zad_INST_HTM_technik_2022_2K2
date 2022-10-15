@@ -59,7 +59,7 @@ h1.Zad1
  margin-right: 20px;
  margin-left: 20px;
 }
-ol > li:first-child
+menu > li:first-child
 {
  border-left: 1px dashed #751b1b;
 }
