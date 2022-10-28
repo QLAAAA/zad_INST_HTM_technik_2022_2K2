@@ -59,3 +59,17 @@ h1.Zad1
  margin-right: 20px;
  margin-left: 20px;
 }
+.zad7
+{
+    text-align: center;
+    color: #1c74b2;
+    font-size: 20px;
+}
+h1.Zad7
+{
+    text-align: center;
+    font-size: 30px;
+    color: #fff;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
