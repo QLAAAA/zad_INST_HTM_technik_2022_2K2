@@ -20,11 +20,16 @@
                       </nav>
                         </header>
                         <main>
+                              <div class="formularz">
                               <center><h1>Ankieta</h1></center>
                               <form enctype="text/plain" action="mailto:kuba6549861@wp.pl" subject="formularz_dane" method="post">
                                     <table>
                                           <tr height="150">
                                                 <td width="50"></td>
+                                                <td width="300"><label>Imie&nbsp;</label><input type="text" name="imie" maxlength="20"></td>
+                                                <td width="350"><label>Nazwisko&nbsp;</label><input type="text" name="nazwisko" maxlength="40"></td>
+                                          </tr>
+                                          <tr height="100">
                                                 <td width="300"><label>Imie &nbsp;</label><input type="text" name="imie" maxlength="20"></td>
                                                 <td width="300"><label>Nazwisko &nbsp;</label><input type="text" name="nazwisko" maxlength="40"></td>
                                           </tr>
@@ -38,16 +43,136 @@
                                                       <input type="radio" name="wiek" value="26+">
                                                       <label for="26+">26+</label>
                                                 </td>
-                                                <td width="500"></td>
-                                                <td width="500"><input type="text" name="przedmiot" value="Najlepszy przedmiot to" size="30"></td>
+                                             <td width="100"></td>
+                                                <td width="500"><input type="text" name="przedmiot" value="Najlepszy przedmiot to" style="height: 30px; width: 300px;"></td>
+                                          </tr>                                  
+                                          <tr height="100">
+                                                <td width="300"></td>
+                                                <td width="500">
+                                                      O której godzinie robisz tą ankiete?</br>
+                                                      czas &nbsp;&nbsp;<input type="time">
+                                                </td>
+                                                <td></td>
+                                                <td width="500">
+                                                      Jakim piłkarskim drużynom kibicujesz? </br>
+                                                      <input type="radio" name="druzyna" value="Lechia Gdańsk" checked>
+                                                      <label for="Lechia Gdańsk">Lechia Gdańsk</label></br>
+                                                      <input type="radio" name="druzyna" value="Manchester United">
+                                                      <label for="Manchester United">Manchester United</label></br>
+                                                      <input type="radio" name="druzyna" value="Juventus">
+                                                      <label for="Juventus">Juventus</label></br>
+                                                      <input type="radio" name="druzyna" value="FC Barcelona">
+                                                      <label for="FC Barcelona">FC Barcelona</label></br>
+                                                      <input type="radio" name="druzyna" value="Real Madryt">
+                                                      <label for="Real Madryt">Real Madryt</label>
+                                                </td>
+                                          </tr>
+                                          <tr height="100">
+                                                <td></td>
+                                                <td>
+                                                Czy masz jakieś zwierze? </br>
+                                                <input type="checkbox" name="zwierze" value="Tak">
+                                                <label for="Tak">Tak</label>
+                                                <input type="checkbox" name="zwierze" value="Nie">
+                                                <label for="Nie">Nie</label>
+                                                <input type="checkbox" name="zwierze" value="Nie wiem">
+                                                <label for="Nie wiem">Nie wiem</label>
+                                          </td>
+                                          <td></td>
+                                          <td>
+                                                Jak często uczysz się w domu? </br>
+                                                <input type="radio" name="nauka" value="0-2">
+                                                <label for="0-2">0-2 w tygodniu</label> </br>
+                                                <input type="radio" name="nauka" value="3-4">
+                                                <label for="3-4">3-4 w tygodniu</label> </br>
+                                                <input type="radio" name="nauka" value="codziennie">
+                                                <label for="codziennie">Codziennie</label> </br>
+                                                <input type="radio" name="nauka" value="Nie ucze się">
+                                                <label for="Nie ucze się">Nie ucze się</label>
+                                          </td>
+                                          </tr> 
+                                          <tr>
+                                                <td></td>
+                                                <td>
+                                                      Jakie masz zaintersowania? (Opisz)
+                                                      <textarea cols="40" rows="10"></textarea>
+                                                </td>
+                                                <td></td>
+                                                <td>
+                                                      Na czym najczęściej grasz? </br>
+                                                      <input type="checkbox" name="granie" value="Komputer">
+                                                      <label for="Komputer">Komputer</label> </br>
+                                                      <input type="checkbox" name="granie" value="Konsola">
+                                                      <label for="Konsola">Konsola</label> </br>
+                                                      <input type="checkbox" name="granie" value="Telefon">
+                                                      <label for="Telefon">Telefon</label> </br>
+                                                      <input type="checkbox" name="granie" value="Nie gram">
+                                                      <label for="Nie gram">Nie gram</label>
+                                                </td>
+                                          </tr>
+                                          <tr height="100">
+                                                <td></td>
+                                                <td>
+                                                      W jakich europejskich krajach byłeś? </br>
+                                                      <input type="checkbox" name="kraje" value="Polska" checked>
+                                                      <label for="Polska">Polska</label>
+                                                      <input type="checkbox" name="kraje" value="Anglia">
+                                                      <label for="Anglia">Anglia</label> </br>
+                                                      <input type="checkbox" name="kraje" value="Niemcy">
+                                                      <label for="Niemcy">Niemcy</label>
+                                                      <input type="checkbox" name="kraje" value="Francja">
+                                                      <label for="Francja">Francja</label> </br>
+                                                      <input type="checkbox" name="kraje" value="Inne">
+                                                      <label for="Inne">Inne</label>
+                                                </td>
+                                                <td></td>
+                                                <td>
+                                                      <label for="czas">Ile czasu robiłeś ankiete?</label></br>
+                                                      <select name="czas" style="width: 150px; height: 25px;">
+                                                            <option value="< 5min">< 5 min</option>
+                                                            <option value="6-15 min">6-15 min</option>
+                                                            <option value="> 15min">> 15 min</option>
+                                                      </select>
+                                                </td>
+                                          </tr>
+                                          <tr height="100">
+                                                <td></td>
+                                                <td>
+                                                      <label for="wzrost">Ile masz wzrostu?</label></br>
+                                                      <select name="wzrost" style="width: 150px; height: 25px;">
+                                                            <option value="< 160 cm">< 160 cm</option>
+                                                            <option value="161-170 cm">161-170 cm</option>
+                                                            <option value="171-185 cm">171-185 cm</option>
+                                                            <option value="> 186 cm">> 186 cm</option>
+                                                      </select>
+                                                </td>
+                                                <td></td>
+                                                <td>
+                                                      <label for="ocena">Jak oceniasz ankiete:</label> </br>
+                                                      <select name="ocena" style="width: 150px; height: 25px;">
+                                                      <option value="Bardzo dobra">Bardzo dobra</option>
+                                                      <option value="Dobra">Dobra</option>
+                                                      <option value="Średnia">Średnia</option>
+                                                      <option value="Zła">Zła</option>
+                                                      <option value="Okropna">Okropna</option>
+                                                      </select>
+                                                </td>
                                           </tr>
                                           <tr>
+                                                <td>
+                                                      <input type="reset" value="Reset" style="width: 75px; height: 37.5px;">
+                                                </td>
+                                                <td>
+                                                      Hasło do ankiety </br>
+                                                      <input type="password">
+                                                </td>
                                             <td>
-                                                <input type="submit">
+                                                <input type="submit" value="Wyślij" style="width: 150px; height: 75px;">
                                             </td>
                                           </tr>
                                     </table>
                               </form>
+                              </div>
       </main>     
       </body>
     </html> 
